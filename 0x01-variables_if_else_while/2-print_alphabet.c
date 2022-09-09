@@ -16,7 +16,7 @@ int main(void)
 
 	strcpy(str, "abcdefghijklmnopqrstuvwxyz");
 
-	for (i = 0; i < 25; i++)
+	for (i = 0; i < 26; i++)
 	{
 		putchar(str[i]);
 	}
