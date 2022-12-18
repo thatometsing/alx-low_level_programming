@@ -4,7 +4,7 @@
  * print_alphabet_x10 - prints all alphabet 10x in lowercase then a new line
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int times = 0;
 	char az;
