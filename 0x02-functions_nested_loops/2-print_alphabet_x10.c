@@ -6,8 +6,9 @@
 
 void print_alphabet_x10(void);
 {
-	char az;
 	int times = 0;
+	char az;
+
 
 	while (times++ < 10)
 	{
