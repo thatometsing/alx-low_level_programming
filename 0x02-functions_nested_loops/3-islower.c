@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints all alphabet then a new line
+ * _islower - prints 1 if lowercase and o if uppercase
+ * c: is the parameter
  */
 
-void print_alphabet(void)
+int _islower(int c);
 {
-	char az;
-
-	for (az = 'a'; az <= 'z'; az++)
-		_putchar(az);
-
-	_putchar('\n');
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
