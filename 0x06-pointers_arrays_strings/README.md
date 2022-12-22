@@ -1,1 +1,1 @@
-lets go
+more stringd, pointers  and arrays
