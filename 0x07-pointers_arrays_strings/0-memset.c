@@ -12,14 +12,16 @@
  *
  * Return: a pointer to the memory area @s
  */
+
+
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i = 0;
+	unsigned int a = 0;
 
-	while (i < n)
+	while (a < n)
 	{
-	s[i] = b;
-	i++;
+	s[a] = b;
+	a++;
 	}
 
 	return (s);
