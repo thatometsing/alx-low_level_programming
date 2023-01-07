@@ -9,10 +9,10 @@
 
 char *_strchr(char *s, char c)
 {
-	unsigned int a = 0, b;
+	unsigned int b;
 
 
-	for  (b = 0; b <= '\0'; b++)
+	for  (b = 0; b >= '\0'; b++)
 	{
 		if (s[b] == c)
 		return (&s[b]);
