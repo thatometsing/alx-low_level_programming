@@ -12,7 +12,6 @@ char *_strpbrk(char *s, char *accept)
 {
 	unsigned int a = 0;
 	unsigned int b = 0;
-	unsigned int n = 0;
 
 	while (s[a])
 	{
